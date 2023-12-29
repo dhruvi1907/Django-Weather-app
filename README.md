@@ -12,25 +12,23 @@ This is a simple Django web application that provides weather information based 
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/Django-Weather-App.git
+   ```bash git clone https://github.com/your-username/Django-Weather-App.git ```
 
 2. Navigate to the project directory:
-   ```bash
-   cd Django-Weather-App
 
+   ```bash cd Django-Weather-App ```
+   
 3. Install the required dependencies:
-  ```bash
-  pip install -r requirements.txt
+   
+   ```bash pip install -r requirements.txt ```
 
 4. Apply database migrations:
-  ```bash
-  python manage.py migrate
 
+  ```bash python manage.py migrate ```
+  
 5. Run the development server:
-  ```bash
-  python manage.py runserver
 
+  ```bash python manage.py runserver ```
 The app will be accessible at http://127.0.0.1:8000/.
 
 Configuration
@@ -51,9 +49,18 @@ Contributing
 If you'd like to contribute to this project, please follow these guidelines.
 
 Fork the repository.
-Create a new branch: git checkout -b feature/your-feature-name
-Commit your changes: git commit -m 'Add new feature'
-Push to the branch: git push origin feature/your-feature-name
+Create a new branch: 
+
+```bash
+git checkout -b feature/your-feature-name
+```
+Commit your changes: 
+```bash 
+git commit -m 'Add new feature' 
+```
+
+Push to the branch: 
+```bash 
+git push origin feature/your-feature-name
+```
 Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
